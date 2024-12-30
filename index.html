@@ -1,0 +1,2230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+  body {
+      position: relative; 
+  }
+  </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <div class="ezy__nav2 dark">
+    <nav class="navbar navbar-expand-lg  py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          UpConstruction
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span>
+            <span></span>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-4 mt-lg-0">
+            <li class="nav-item"><a class="nav-link active fs-5 fw-bolder text-capitalize" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link fs-5 fw-bolder text-capitalize" href="#why">content </a></li>
+            <li class="nav-item"><a class="nav-link fs-5 fw-bolder text-capitalize" href="#Constructions">Constructions</a></li>
+            <li class="nav-item"><a class="nav-link fs-5 fw-bolder text-capitalize" href="#serviess">Service</a></li>
+            <li class="nav-item"><a class="nav-link fs-5 fw-bolder text-capitalize" href="#porject">porject</a></li>
+            <li class="nav-item"><a class="nav-link fs-5 fw-bolder text-capitalize" href="#testimonial">testimonial</a></li>
+            <li class="nav-item"><a class="nav-link fs-5 fw-bolder text-capitalize" href="#blog">Blog</a></li>
+          </ul>
+          <ul class="navbar-nav flex-row mb-2 mb-lg-0 ms-lg-3">
+            <li class="nav-item me-2">
+              
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <style>
+  .ezy__nav2 {
+    /* Bootstrap variables */
+    --bs-body-color: #000;
+    --bs-body-bg: rgb(255, 255, 255);
+  
+    /* Easy Frontend variables */
+    --ezy-theme-color: rgb(13, 110, 253);
+    --ezy-theme-color-rgb: 13, 110, 253;
+  
+    background-color: var(--bs-body-bg);
+  }
+  
+  /* Gray Block Style */
+  .gray .ezy__nav2,
+  .ezy__nav2.gray {
+    /* Bootstrap variables */
+    --bs-body-bg: rgb(246, 246, 246);
+  }
+  
+  /* Dark Gray Block Style */
+  .dark-gray .ezy__nav2,
+  .ezy__nav2.dark-gray {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: #EEB76B;
+  }
+  
+  /* Dark Block Style */
+  .dark .ezy__nav2,
+  .ezy__nav2.dark {
+    /* Bootstrap variables */
+    --bs-body-color: #ffffff;
+    --bs-body-bg: rgb(13, 110, 253);
+  
+  
+  }
+  
+  .ezy__nav2 .navbar-brand {
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--bs-body-color);
+  }
+  
+  .ezy__nav2 .navbar-toggler {
+    border: none;
+    box-shadow: none !important;
+  }
+  
+  .ezy__nav2 .navbar-toggler>span {
+    display: flex;
+    align-items: center;
+    height: 32px;
+  }
+  
+  .ezy__nav2 .navbar-toggler>span>span {
+    position: relative;
+  }
+  
+  .ezy__nav2 .navbar-toggler>span>span,
+  .ezy__nav2 .navbar-toggler>span>span::before,
+  .ezy__nav2 .navbar-toggler>span>span::after {
+    height: 2px;
+    background-color: var(--bs-body-color);
+    width: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: all .35s ease-in-out;
+  }
+  
+  .ezy__nav2 .navbar-toggler>span>span::before,
+  .ezy__nav2 .navbar-toggler>span>span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+  }
+  
+  .ezy__nav2 .navbar-toggler[aria-expanded="false"]>span>span::before {
+    top: 7px;
+  }
+  
+  
+  .ezy__nav2 .navbar-toggler[aria-expanded="false"]>span>span::after {
+    bottom: 7px;
+  }
+  
+  .ezy__nav2 .navbar-toggler[aria-expanded="true"]>span>span {
+    background-color: transparent;
+  }
+  
+  .ezy__nav2 .navbar-toggler[aria-expanded="true"]>span>span::before {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  
+  .ezy__nav2 .navbar-toggler[aria-expanded="true"]>span>span::after {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+  
+  .ezy__nav2 .navbar-nav .nav-link {
+    color: var(--bs-body-color);
+    opacity: .6;
+  }
+  
+  .ezy__nav2 .navbar-nav .nav-link:hover,
+  .ezy__nav2 .navbar-nav .nav-link:focus,
+  .ezy__nav2 .navbar-nav .nav-link.active {
+    color: var(--bs-body-color);
+    opacity: 1;
+  }
+  
+  @media (min-width: 992px) {
+    .ezy__nav2 .navbar-nav .nav-link {
+      padding-right: 16px;
+      padding-left: 16px;
+    }
+  }
+  
+  /* btns */
+  .ezy__nav2 .btn-primary {
+    background-color: var(--ezy-theme-color);
+    border-color: var(--ezy-theme-color);
+  }
+  
+  .ezy__nav2 .btn-primary:hover {
+    background-color: rgba(var(--ezy-theme-color-rgb), .9);
+    border-color: rgba(var(--ezy-theme-color-rgb), .9);
+  }
+  
+  .ezy__nav2 .btn-outline-primary {
+    color: var(--ezy-theme-color);
+    border-color: var(--ezy-theme-color);
+  }
+  
+  .ezy__nav2 .btn-outline-primary:hover {
+    color: #fff;
+    background-color: rgba(var(--ezy-theme-color-rgb), .9);
+    border-color: rgba(var(--ezy-theme-color-rgb), .9);
+  }
+
+  /* Rounded border */
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+
+
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item:before, .navbar .navbar-nav .nav-item:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: white;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+ .navbar-nav .nav-item:before
+{
+    top: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersIn a:after
+{
+    bottom: 0px;
+    transform: translateY(10px);
+}
+
+.navbar .navbar-nav .nav-item:hover:before, .navbar .navbar-nav .nav-item:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+  
+
+
+  </style>
+
+
+
+
+
+<!-- tab start the home -->
+
+<div id="home">
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner ">
+    <div class="carousel-item active c-item">
+     <img src="https://flexcrete.com/wp-content/uploads/2017/08/New-Build-Construction-Flexcrete-1.jpg" height="800px" width="100%" alt="">
+      <div class="carousel-caption   top-0 mt-5">
+    
+        <hr class="rounded">
+        <h1 class="display-1 fw-bolder text-capitalize mt-5 py-5 animate__animated  animate__backInLeft"> welcome to  up comstruction </h1>
+        <p class="animate__animated animate__backInRightgit">Lorem ipsum dolor sit amet consectetur adipisicing elit.  Blanditiis quibusdam aspernatur, optio ipsa rem quo necessitatibus  exercitationem nulla quaerat doloremque vitae  fugit quis modi placeat. Praesentium suscipit nisi inventore optio!</p>
+        
+        <a href="" class="btn  px-4 py-4 fs-3 mt-5 header-btn ">Read More</a>
+      </div>
+    </div>
+    <div class="carousel-item c-item">
+     <img src="https://storage.needpix.com/rsynced_images/home-2449886_1280.jpg"  height="800px" width="100%" alt="">
+      <div class="carousel-caption top-0 mt-5">
+        <h1 class="display-1 fw-bolder text-capitalize  mt-5 py-5"> welcome to  up comstruction </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit  Blanditiis quibusdam aspernatur, optio ipsa rem quo necessitati exercitationem nulla quaerat doloremque vitae  fugit quis modi placeat. Praesentium suscipit  nisi inventore optio!</p>
+        <a href="" class="btn  px-4 py-4 fs-3 mt-5 header-btn">Read More</a>
+
+    
+      </div> 
+    </div>
+    <div class="carousel-item c-item">
+      <img src="https://www.hotelowner.co.uk/wp-content/uploads/2024/02/shutterstock_142079119.jpg"  height="800px" width="100%" alt="">
+      <div class="carousel-caption top-0 mt-5">
+        <h1 class="display-1 fw-bolder text-capitalize  mt-5 py-5"> welcome to  up comstruction </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quibusdam aspernatur, optio ipsa rem quo necessitatibus exercitationem nulla quaerat doloremque vitae fugit quis modi placeat. Praesentium suscipit nisi inventore optio!</p>
+        <a href="" class="btn  px-4 py-4 fs-3 mt-5 header-btn">Read More</a>
+    
+      </div>  
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+
+
+<style>.c-item{
+  height: 700px;
+
+}
+
+.c-img{
+  height: 100%;
+  object-fit: cover;
+  filter:drop-shadow(0.7);
+}
+
+  .header-btn {
+  padding: 7px 20px;
+  background-color:  rgb(13, 110, 253);
+  color: wheat;
+  border-color: wheat;
+}
+
+.header-btn:hover {
+  background-color: rgb(13, 110, 253);
+  border-color: white;
+}
+  
+</style>
+  
+
+
+
+<!-- teb -1 why us -->
+
+<div id="why">
+<!-- teb id-1 -->
+
+   <section class="ezy__contact9 light">
+	<div class="container">
+		<div class="row justify-content-between">
+			<div class="col-lg-5 mb-5 mb-lg-0">
+				<h2 class="ezy__contact9-title mb-4 mt-0" style="color:   rgb(13, 110, 253);">Minus hic non reiciendis ea possimus at quia.</h2>
+				<p class="ezy__contact9-sub-heading mb-0">Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.
+
+          Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+
+				<div class="mt-5 pt-md-4">
+					<div class="card ezy__contact9-link mt-4">
+						<div class="card-body d-flex align-items-center">
+							<i class="fas fa-envelope-open-text ezy__contact9-icon fs-3 px-2"></i>
+							<a class="ezy__contact9-link-content ms-4"
+								href="mailto:email@easyfrontend.com">email@tiloksain347.com</a>
+						</div>
+					</div>
+					<div class="card ezy__contact9-link mt-4">
+						<div class="card-body d-flex align-items-center">
+							<i class="fas fa-phone-alt ezy__contact9-icon fs-3 px-2"></i>
+							<a class="ezy__contact9-link-content ms-4" href="75466546546">5768575959</a>
+						</div>
+					</div>
+					<div class="card ezy__contact9-link mt-4">
+						<div class="card-body d-flex align-items-center">
+							<i class="fas fa-hdd fs-3 ezy__contact9-icon px-2"></i>
+							<a class="ezy__contact9-link-content ms-4" href="#">tiloksain347@gmail.com</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5">
+				<div class="card ezy__contact9-form-card">
+					<div class="card-body p-md-5">
+						<h2 class="ezy__contact9-heading mb-3"  style="color:   rgb(13, 110, 253);">Contact Us</h2>
+						<p class="ezy__contact9-sub-heading mb-5">We list your menu online, help you process orders.
+						</p>
+
+						<form>
+							<div class="form-group mb-3 mt-2">
+							<input type="text" class="form-control" placeholder="Enter Name"/>
+							</div>
+							<div class="form-group mb-3 mt-2">
+								<input type="email" class="form-control" placeholder="Enter Email"/>
+							</div>
+							<div class="form-group mb-3">
+								<textarea name="message" class="form-control" placeholder="Enter Message"
+									rows="3"></textarea>
+							</div>
+							<div class="text-end">
+								<button type="submit" class="btn btn-primary ezy__contact9-btn">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</div>
+
+<style>
+.ezy__contact9 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-form-card-bg: rgb(244, 247, 253);
+	--ezy-form-card-shadow: none;
+	--ezy-link-bg: rgb(244, 247, 253);
+	--ezy-link-hover-shadow: 0 16px 24px 0 rgba(197, 206, 222, .25);
+
+	background-color: var(--bs-body-bg);
+	padding: 70px 0;
+}
+
+/* Gray Block Style */
+.gray .ezy__contact9,
+.ezy__contact9.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(244, 247, 253);
+
+	/* easy frontend variables */
+	--ezy-form-card-bg: #fff;
+	--ezy-form-card-shadow: none;
+	--ezy-link-bg: #fff;
+	--ezy-link-hover-shadow: 0 16px 24px 0 rgba(197, 206, 222, .25);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__contact9,
+.ezy__contact9.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: white;
+
+	/* Easy Frontend variables */
+	--ezy-form-card-bg: #f3ecea;
+	--ezy-form-card-shadow: none;
+	--ezy-link-bg: rgb(11, 23, 39);
+	--ezy-link-hover-shadow: 0 16px 24px 0 rgba(40, 40, 40, .25);
+}
+
+/* Dark Block Style */
+.dark .ezy__contact9,
+.ezy__contact9.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-form-card-bg: #162231;
+	--ezy-form-card-shadow: none;
+	--ezy-link-bg: #162231;
+	--ezy-link-hover-shadow: 0 16px 24px 0 rgba(44, 44, 44, .25);
+}
+
+@media (min-width: 768px) {
+	.ezy__contact9 {
+		padding: 100px 0;
+	}
+}
+
+.ezy__contact9-title {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__contact9-title {
+		font-size: 40px;
+		line-height: 40px;
+	}
+}
+
+.ezy__contact9-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__contact9-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__contact9-sub-heading {
+	font-size: 18px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+.ezy__contact9-form-card {
+	background-color: var(--ezy-form-card-bg);
+	border: none;
+	box-shadow: var(--ezy-form-card-shadow);
+	border-radius: 15px;
+}
+
+.ezy__contact9 .form-control {
+	min-height: 48px;
+	line-height: 40px;
+	border-color: transparent;
+	background: rgba(163, 190, 241, .14);
+	border-radius: 10px;
+	color: var(--bs-body-color);
+}
+
+.ezy__contact9 .form-control:focus {
+	border-color: #39547c;
+	box-shadow: none;
+}
+
+.ezy__contact9-btn {
+	padding: 12px 30px;
+	color: #ffffff;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__contact9-btn:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), .9);
+	border-color: rgba(var(--ezy-theme-color-rgb), .9);
+	color: #ffffff;
+}
+
+.ezy__contact9-link {
+	background-color: var(--ezy-link-bg);
+	border: none;
+	border-radius: 10px;
+	width: 100%;
+	transition: box-shadow .15s ease-in-out;
+}
+
+@media (min-width: 768px) {
+	.ezy__contact9-link {
+		max-width: 350px;
+	}
+}
+
+.ezy__contact9-icon,
+.ezy__contact9-link .ezy__contact9-link-content {
+	color: var(--bs-body-color);
+}
+
+.ezy__contact9-link.active,
+.ezy__contact9-link:hover {
+	box-shadow: var(--ezy-link-hover-shadow);
+}
+
+.ezy__contact9-link-content {
+	font-size: 18px;
+	font-weight: 500;
+	text-decoration: none;
+}
+</style>
+
+ 
+<!-- teb the Constructions start  -->
+
+<div id="Constructions">
+<section class="ezy__blog5 light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="ezy__blog5-heading mb-3 mt-0" style=" color:  rgb(13, 110, 253);">Pros & Cons of Being a Model</h2>
+        <p class="ezy__blog5-sub-heading px-lg-5 mb-4">
+          It’s no secret that the digital industry is booming. From exciting startups to global brands, companies
+          are reaching out to digital agencies,
+        </p>
+       
+      </div>
+    </div>
+
+    <div class="row align-items-center mt-5">
+      <div class="col-12 mb-4">
+        <article class="ezy__blog5-featured-post">
+          <div class="row align-items-center">
+            <div class="col-lg-7 order-lg-2">
+              <img src="https://www.shutterstock.com/image-photo/engineer-technician-watching-team-workers-600nw-1493369789.jpg" alt="" class="img-fluid rounded-3" />
+            </div>
+            <div class="col-lg-5">
+              <div class="mt-4 mt-lg-0 pe-lg-4">
+                <h4 class="ezy__blog5-title mb-2">
+                  Eligendi omnis sunt veritatis.
+                </h4>
+                <p class="ezy__blog5-description mt-3 mb-4">
+                  Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.
+                </p>
+                <div class="ezy__blog5-author d-flex align-items-center">
+                  <div class="me-2">
+              
+                  </div>
+                  <div>
+               
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="ezy__blog5-post rounded overflow-hidden mt-4">
+          <img src="https://media.istockphoto.com/id/897664288/photo/worker-at-construction-site-is-fixing-the-form-for-the-beam.jpg?s=612x612&w=0&k=20&c=57HkKCv9CDdPuo4goHqNTIQ7yvK-LYScpKTS4OsYwL4=" alt="" class="img-fluid w-100" />
+          <div class="p-3 p-lg-4">
+            <h4 class="ezy__blog5-title fs-4 mb-1">Eligendi omnis sunt veritatis.</h4>
+          
+            <p class="ezy__blog5-description mt-3 mb-4">
+              Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.
+ 
+            </p>
+            </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="ezy__blog5-post rounded overflow-hidden mt-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ACOhzfajHG3iJ1NENQD5uv_rXO7x2sBs5Ao0QmW1QFtDWETzUHre6KKAObIDGDvpuMo&usqp=CAU" alt="" class="img-fluid w-100" />
+          <div class="p-3 p-lg-4">
+            <h4 class="ezy__blog5-title fs-4 mb-1">Eligendi omnis sunt veritatis.</h4>
+            
+            <p class="ezy__blog5-description mt-3 mb-4">
+              Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.
+
+            </p>
+           
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="ezy__blog5-post rounded overflow-hidden mt-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR85s-v5cm2pljRn4AKPypEm2bcjsq7-foSG0hPPRZdTvpYsjFSp3wVkkp2oXKRFixxGe0&usqp=CAU" alt="" class="img-fluid w-100" />
+          <div class="p-3 p-lg-4">
+            <h4 class="ezy__blog5-title fs-4 mb-1">Eligendi omnis sunt veritatis.</h4>
+           
+            <p class="ezy__blog5-description mt-3 mb-4">
+              Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.
+
+            </p>
+           
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</div>
+<style>
+.ezy__blog5 {
+  /* Bootstrap variables */
+  --bs-body-color: #15181d;
+  --bs-body-bg: #fff;
+
+  /* easy frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-card-bg: #fff;
+  --ezy-card-shadow: 0 25px 41px rgba(89, 88, 109, 0.15);
+
+  background-color: var(--bs-body-bg);
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .ezy__blog5 {
+    padding: 100px 0;
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__blog5,
+.ezy__blog5.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+
+  /* easy frontend variables */
+  --ezy-card-bg: #fff;
+  --ezy-card-shadow: 0px 8px 44px rgba(182, 198, 222, 0.48);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__blog5,
+.ezy__blog5.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: rgb(241, 241, 241);
+  --bs-body-bg: rgb(30, 39, 53);
+
+  /* easy frontend variables */
+  --ezy-card-bg: rgb(11, 23, 39);
+  --ezy-card-shadow: none;
+}
+
+/* Dark Block Style */
+.dark .ezy__blog5,
+.ezy__blog5.dark {
+  /* Bootstrap variables */
+  --bs-body-color: rgb(255, 255, 255);
+  --bs-body-bg: rgb(11, 23, 39);
+
+  /* easy frontend variables */
+  --ezy-card-bg: rgb(30, 39, 53);
+  --ezy-card-shadow: none;
+}
+
+/* heading and sub-heading */
+.ezy__blog5-heading {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: var(--bs-body-color);
+}
+
+.ezy__blog5-sub-heading {
+  color: var(--bs-body-color);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+@media (min-width: 991px) {
+  .ezy__blog5-heading {
+    font-size: 45px;
+  }
+}
+
+.ezy__blog5-post {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fcf9f9;
+  box-shadow: var(--ezy-card-shadow);
+}
+
+@media (min-width: 768px) {
+  .ezy__blog5-featured-post .ezy__blog5-author {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .ezy__blog5-featured-post .ezy__blog5-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .ezy__blog5-featured-post .ezy__blog5-description {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+.ezy__blog5-title {
+  font-weight: 500;
+  margin-top: 0 !important;
+  color: var(--bs-body-color);
+}
+
+.ezy__blog5-description {
+  color: var(--bs-body-color);
+  opacity: 0.6;
+}
+
+.ezy__blog5-btn {
+  padding: 12px 30px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--ezy-theme-color);
+  border-color: var(--ezy-theme-color);
+}
+
+.ezy__blog5-btn:hover {
+  color: #ffffff;
+  background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.ezy__blog5-btn-read-more {
+  padding: 7px 20px;
+  color: var(--bs-body-color);
+  border-color: var(--ezy-theme-color);
+}
+
+.ezy__blog5-btn-read-more:hover {
+  background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+  color: #ffffff;
+}
+
+.ezy__blog5-author {
+  color: var(--bs-body-color);
+}
+
+.ezy__blog5-author a {
+  color: var(--ezy-theme-color);
+}
+</style>
+
+
+<!-- tab start the srvises  -->
+
+<div id="serviess">
+<section class="ezy__service23 light" id="ezy__service23">
+  <div class="container">
+    <div class="row ezy__service23-separator">
+      <!-- Start: Section Heading -->
+      <div class="col-12 mb-5 text-center">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-5">
+            <h3 class="ezy__service23-heading text-capitalize fw-bolder f-4" style=" color:  rgb(13, 110, 253);">Our Services</h3>
+            <p class="ezy__service23-sub-heading mt-4 px-md-4">
+              Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores, illum at, aliquid
+              blanditiis eligendi qui.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End: Section Heading -->
+      <div class="row ezy__service23-row">
+        <!-- card start -->
+        <div class="col-md-6 col-xl-4 mt-4 ">
+          <div class="card ezy__service23-card p-4 border-0 rounded-0 Service-cart ">
+            <div class="card-body pt-4">
+              <div class="ezy__service23-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M336 0c-26.5 0-48 21.5-48 48v92.1l71.4 118.4c2.5-1.6 5.4-2.5 8.6-2.5h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-3.5l73.8 122.4c12.4 20.6 12.9 46.3 1.2 67.3c-.4 .8-.9 1.6-1.4 2.3H592c26.5 0 48-21.5 48-48V240c0-26.5-21.5-48-48-48H568V120c0-13.3-10.7-24-24-24s-24 10.7-24 24v72H480V48c0-26.5-21.5-48-48-48H336zm32 64h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V80c0-8.8 7.2-16 16-16zM352 176c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V176zm160 96c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H528c-8.8 0-16-7.2-16-16V272zm16 80h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H528c-8.8 0-16-7.2-16-16V368c0-8.8 7.2-16 16-16zM224 188.9L283.8 288H223l-48 64-24.6-41.2L224 188.9zm29.4-44.2C247.1 134.3 236 128 224 128s-23.1 6.3-29.4 16.7L5.1 458.9c-6.5 10.8-6.7 24.3-.7 35.3S22 512 34.5 512H413.5c12.5 0 24-6.8 30.1-17.8s5.8-24.5-.7-35.3L253.4 144.7z"/></svg>
+              </div>
+            </div>
+            <div class="card-body pb-4">
+              <h5 class="ezy__service23-card-title mb-3 text-capitalize">nesciunt mete</h5>
+              <p class="ezy__service23-card-sub-title mb-0">
+                Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores, illum at, aliquid
+                blanditiis eligendi qui.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+        <!-- card start -->
+        <div class="col-md-6 col-xl-4 mt-4 ">
+          <div class="card ezy__service23-card p-4 border-0 rounded-0 Service-cart">
+            <div class="card-body pt-4">
+              <div class="ezy__service23-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 352c17.7 0 32-14.3 32-32V109.3l25.4 25.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-80-80c-12.5-12.5-32.8-12.5-45.3 0l-80 80c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L256 109.3V320c0 17.7 14.3 32 32 32zm-18.5 69.9C247 437.4 219.5 448 192 448c-26.9 0-55.3-10.8-77.4-26.1l0 0c-11.9-8.5-28.1-7.8-39.2 1.7c-14.4 11.9-32.5 21-50.6 25.2c-17.2 4-27.9 21.2-23.9 38.4s21.2 27.9 38.4 23.9c24.5-5.7 44.9-16.5 58.2-25C126.5 501.7 159 512 192 512c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.6 18.9 80.4 18.9c33 0 65.5-10.3 94.5-25.8c13.4 8.4 33.7 19.3 58.2 25c17.2 4 34.4-6.7 38.4-23.9s-6.7-34.4-23.9-38.4c-18.1-4.2-36.2-13.3-50.6-25.2c-11.1-9.4-27.3-10.1-39.2-1.7l0 0C439.4 437.2 410.9 448 384 448c-27.5 0-55-10.6-77.5-26.1c-11.1-7.9-25.9-7.9-37 0zM192 192H48c-26.5 0-48 21.5-48 48V425c5.3-3.1 11.2-5.4 17.5-6.9c13.1-3.1 26.7-9.8 37.3-18.6c22.2-18.7 54.3-20.1 78.1-3.4c18 12.4 40.1 20.3 59.1 20.3V192zm384 48c0-26.5-21.5-48-48-48H384V416.5h0c19 0 41.2-7.9 59.2-20.3c23.8-16.7 55.8-15.3 78.1 3.4c10.6 8.8 24.2 15.6 37.3 18.6c6.3 1.5 12.1 3.8 17.5 6.9V240z"/></svg>
+              </div>
+            </div>
+            <div class="card-body pb-4">
+              <h5 class="ezy__service23-card-title mb-3 text-capitalize">eosle commodi</h5>
+              <p class="ezy__service23-card-sub-title mb-0">
+                Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores, illum at, aliquid
+                blanditiis eligendi qui.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+        <!-- card start -->
+        <div class="col-md-6 col-xl-4 mt-4 ">
+          <div class="card ezy__service23-card p-4 border-0 rounded-0 Service-cart">
+            <div class="card-body pt-4">
+              <div class="ezy__service23-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M352 96c0 14.3-3.1 27.9-8.8 40.2L396 227.4c-23.7 25.3-54.2 44.1-88.5 53.6L256 192h0 0l-68 117.5c21.5 6.8 44.3 10.5 68.1 10.5c70.7 0 133.8-32.7 174.9-84c11.1-13.8 31.2-16 45-5s16 31.2 5 45C428.1 341.8 347 384 256 384c-35.4 0-69.4-6.4-100.7-18.1L98.7 463.7C94 471.8 87 478.4 78.6 482.6L23.2 510.3c-5 2.5-10.9 2.2-15.6-.7S0 501.5 0 496V440.6c0-8.4 2.2-16.7 6.5-24.1l60-103.7C53.7 301.6 41.8 289.3 31.2 276c-11.1-13.8-8.8-33.9 5-45s33.9-8.8 45 5c5.7 7.1 11.8 13.8 18.2 20.1l69.4-119.9c-5.6-12.2-8.8-25.8-8.8-40.2c0-53 43-96 96-96s96 43 96 96zm21 297.9c32.6-12.8 62.5-30.8 88.9-52.9l43.7 75.5c4.2 7.3 6.5 15.6 6.5 24.1V496c0 5.5-2.9 10.7-7.6 13.6s-10.6 3.2-15.6 .7l-55.4-27.7c-8.4-4.2-15.4-10.8-20.1-18.9L373 393.9zM256 128c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32z"/></svg>
+              </div>
+            </div>
+            <div class="card-body pb-4">
+              <h5 class="ezy__service23-card-title mb-3 text-capitalize">ledo markt</h5>
+              <p class="ezy__service23-card-sub-title mb-0">
+                Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores, illum at, aliquid
+                blanditiis eligendi qui.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+        <!-- card start -->
+        <div class="col-md-6 col-xl-4 mt-4 ">
+          <div class="card ezy__service23-card p-4 border-0 rounded-0 Service-cart">
+            <div class="card-body pt-4">
+              <div class="ezy__service23-card-icon">
+                <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="0" fill="none" width="20" height="20"></rect> <g> <path d="M7 4V3H3v1h4zm10 1V3H8v2h9zM7 7H5V5L1 8.5 5 12v-2h2V7zm10 1V6H8v2h9zm-2 3V9H8v2h7zm2 3v-2H8v2h9zM7 14v-1H3v1h4zm4 3v-2H8v2h3z"></path> </g> </g></svg>
+              </div>
+            </div>
+            <div class="card-body pb-4">
+              <h5 class="ezy__service23-card-title mb-3 text-capitalize"> asperiores commodit</h5>
+              <p class="ezy__service23-card-sub-title mb-0">
+                Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores, illum at, aliquid
+                blanditiis eligendi qui.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+        <!-- card start -->
+        <div class="col-md-6 col-xl-4 mt-4 ">
+          <div class="card ezy__service23-card p-4 border-0 rounded-0 Service-cart">
+            <div class="card-body pt-4">
+              <div class="ezy__service23-card-icon">
+                <svg viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:none;stroke:#020202;stroke-miterlimit:10;stroke-width:1.91px;}</style></defs><path class="cls-1" d="M14,2.56a8.6,8.6,0,0,1,6.59,8.35v1.91H3.41V10.91A8.57,8.57,0,0,1,10,2.56"></path><rect class="cls-1" x="1.5" y="12.82" width="21" height="3.82" rx="1.91"></rect><polygon class="cls-1" points="14.86 12.82 9.14 12.82 10.09 1.36 13.91 1.36 14.86 12.82"></polygon></g></svg>
+              </div>
+            </div>
+            <div class="card-body pb-4">
+              <h5 class="ezy__service23-card-title mb-3 text-capitalize">vellit doloremque</h5>
+              <p class="ezy__service23-card-sub-title mb-0 text-capitalize">
+                Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores, illum at, aliquid
+                blanditiis eligendi qui.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+        <!-- card start -->
+        <div class="col-md-6 col-xl-4 mt-4 ">
+          <div class="card ezy__service23-card p-4 border-0 rounded-0 Service-cart">
+            <div class="card-body pt-4">
+              <div class="ezy__service23-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 352c17.7 0 32-14.3 32-32V109.3l25.4 25.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-80-80c-12.5-12.5-32.8-12.5-45.3 0l-80 80c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L256 109.3V320c0 17.7 14.3 32 32 32zm-18.5 69.9C247 437.4 219.5 448 192 448c-26.9 0-55.3-10.8-77.4-26.1l0 0c-11.9-8.5-28.1-7.8-39.2 1.7c-14.4 11.9-32.5 21-50.6 25.2c-17.2 4-27.9 21.2-23.9 38.4s21.2 27.9 38.4 23.9c24.5-5.7 44.9-16.5 58.2-25C126.5 501.7 159 512 192 512c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.6 18.9 80.4 18.9c33 0 65.5-10.3 94.5-25.8c13.4 8.4 33.7 19.3 58.2 25c17.2 4 34.4-6.7 38.4-23.9s-6.7-34.4-23.9-38.4c-18.1-4.2-36.2-13.3-50.6-25.2c-11.1-9.4-27.3-10.1-39.2-1.7l0 0C439.4 437.2 410.9 448 384 448c-27.5 0-55-10.6-77.5-26.1c-11.1-7.9-25.9-7.9-37 0zM192 192H48c-26.5 0-48 21.5-48 48V425c5.3-3.1 11.2-5.4 17.5-6.9c13.1-3.1 26.7-9.8 37.3-18.6c22.2-18.7 54.3-20.1 78.1-3.4c18 12.4 40.1 20.3 59.1 20.3V192zm384 48c0-26.5-21.5-48-48-48H384V416.5h0c19 0 41.2-7.9 59.2-20.3c23.8-16.7 55.8-15.3 78.1 3.4c10.6 8.8 24.2 15.6 37.3 18.6c6.3 1.5 12.1 3.8 17.5 6.9V240z"/></svg>
+              </div>
+            </div>
+            <div class="card-body pb-4">
+              <h5 class="ezy__service23-card-title mb-3 text-capitalize">dolori architecto</h5>
+              <p class="ezy__service23-card-sub-title mb-0 text-capitalize">
+                Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores, illum at, aliquid
+                blanditiis eligendi qui.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+      </div>
+      <!-- End: .row -->
+    </div>
+    <!-- End: .row -->
+  </div>
+  <!-- End: .container -->
+</section>
+</div>
+
+
+
+<style>
+.ezy__service23 {
+  --bs-body-color: rgb(50, 62, 80);
+  --bs-body-bg: #fff;
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-card-bg: #ffffff;
+  --ezy-card-shadow: 0px 6px 44px rgba(173, 174, 197, 0.2);
+  --ezy-icon-shadow: 0px 20px 40px 0 rgba(234, 233, 233, 0.92);
+
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+/* Gray Block Style */
+.gray .ezy__service23,
+.ezy__service23.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: #ffffff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__service23,
+.ezy__service23.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(30, 39, 53);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: rgb(30, 39, 53);
+  --ezy-card-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+  --ezy-icon-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Dark Block Style */
+.dark .ezy__service23,
+.ezy__service23.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(11, 23, 39);
+
+  /* Easy Frontend variables */
+  --ezy-card-bg: rgb(30, 39, 53);
+  --ezy-card-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+  --ezy-icon-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ezy__service23-heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .ezy__service23-heading {
+    font-size: 45px;
+  }
+}
+
+.ezy__service23-sub-heading {
+  font-size: 17px !important;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.ezy__service23-separator {
+  padding: 80px 0;
+}
+
+.ezy__service23-card {
+  background-color: var(--ezy-card-bg);
+  box-shadow: var(--ezy-card-shadow);
+  border-radius: 10px !important;
+  transition: 0.4s;
+}
+
+.ezy__service23-card-icon {
+  font-size: 30px;
+  padding: 20px;
+  width: 70px;
+  height: 70px;
+  /* color: #fff; */
+  background-color: transparent;
+  box-shadow: var(--ezy-icon-shadow);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ezy__service23-row [class*="col-"]:nth-of-type(1n) .ezy__service23-card-icon {
+  color: #ffc107;
+}
+
+.ezy__service23-row [class*="col-"]:nth-of-type(2n) .ezy__service23-card-icon {
+  color: #ff6400;
+}
+
+.ezy__service23-row [class*="col-"]:nth-of-type(3n) .ezy__service23-card-icon {
+  color: #2f80ed;
+}
+
+.ezy__service23-row [class*="col-"]:nth-of-type(4n) .ezy__service23-card-icon {
+  color: #3abdbb;
+}
+
+.ezy__service23-row [class*="col-"]:nth-of-type(5n) .ezy__service23-card-icon {
+  color: #04004d;
+}
+
+.ezy__service23-row [class*="col-"]:nth-of-type(6n) .ezy__service23-card-icon {
+  color: #ff1f1f;
+}
+
+.ezy__service23-card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ezy__service23-card-sub-title {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.Service-cart:hover {
+  background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+  color: #ffffff;
+}
+
+</style>
+
+
+<section class="ezy__featured44 light">
+  <div class="container">
+    <div class="row">
+      <!--  heading-->
+      <div class="col-12 col-md-9">
+        <div class="mb-5">
+          <h1 class="ezy__featured44-heading mb-3 text-capitalize " style="color:   rgb(13, 110, 253); ">Form earth he living after</h1>
+          <p class="ezy__featured44-sub-heading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod perferendis nihil cupiditate
+            aliquid qui exercitationem labore veritatis eaque nobis libero earum, ab sapiente voluptates a
+            consequuntur.
+          </p>
+        </div>
+      </div>
+      <!-- img -->
+      <div class="col-12 col-lg-6 text-center">
+        <div
+          class="ezy__featured44-bg-holder"
+          style="background-image: url(https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?cs=srgb&dl=pexels-sevenstormphotography-439416.jpg&fm=jpg)"
+        ></div>
+      </div>
+      <!-- cards -->
+      <div class="col-12 col-lg-6 d-flex flex-column justify-content-center">
+        <!-- card starts -->
+        <div class="card">
+          <div class="card-body d-flex justify-content-center p-4">
+            <div class="ezy__featured44-card-icon d-flex justify-content-center align-items-center mb-4">
+              <!--?xml version="1.0" encoding="utf-8"?-->
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<i class="bi bi-easel"></i>
+  
+            </div>
+            <div class="p-3">
+              <h5 class="ezy__featured44-card-title mb-3 text-capitalize"> Nemo Enim</h5>
+              <p class="ezy__featured44-card-text mb-0">
+                Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores, illum at, aliquid
+                blanditiis eligendi qui.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card ends -->
+        <!-- card starts -->
+        <div class="card">
+          <div class="card-body d-flex justify-content-center p-4">
+            <div class="ezy__featured44-card-icon d-flex justify-content-center align-items-center mb-4">
+              <i class="bi bi-check-square"></i>
+            </div>
+            <div class="p-3">
+              <h5 class="ezy__featured44-card-title mb-3 text-capitalize"> loewm ipaum </h5>
+              <p class="ezy__featured44-card-text mb-0 text-capitalize">
+                voluptaum deieniti atque corrupit quios dolores et ques molesties excepturi sint occaecati cupideite non prvide 
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card ends -->
+        <!-- card starts -->
+        <div class="card">
+          <div class="card-body d-flex justify-content-center p-4">
+            <div class="ezy__featured44-card-icon d-flex justify-content-center align-items-center mb-4">
+              <i class="bi bi-chat-square-dots-fill"></i>
+            </div>
+            <div class="p-3">
+              <h5 class="ezy__featured44-card-title mb-3 text-capitalize">Nemo Enim</h5>
+              <p class="ezy__featured44-card-text mb-0 text-capitalize">
+                 at vero eos accusamus et iusto dignissimos ducimus blaandis preasntium vlouptium delenuti atque
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card ends -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.ezy__featured44 {
+  --bs-body-color: rgb(50, 62, 80);
+  --bs-body-bg: rgb(255, 255, 255);
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-card-bg: transparent;
+
+  background-color: var(--bs-body-bg);
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .ezy__featured44 {
+    padding: 100px 0;
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__featured44,
+.ezy__featured44.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__featured44,
+.ezy__featured44.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__featured44,
+.ezy__featured44.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__featured44-heading {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+  .ezy__featured44-heading {
+    font-size: 45px;
+  }
+}
+
+.ezy__featured44-sub-heading {
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--bs-body-color);
+  opacity: 0.8;
+}
+
+/* img */
+.ezy__featured44-bg-holder {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  height: 100%;
+  min-height: 400px;
+}
+
+@media (min-width: 991px) {
+  .ezy__featured44-bg-holder {
+    height: 550px;
+  }
+}
+
+/* card */
+.ezy__featured44 .card {
+  background-color: var(--ezy-card-bg);
+  color: var(--bs-body-color);
+  border: 0 !important;
+}
+
+.ezy__featured44-card-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ezy__featured44-card-text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.ezy__featured44-card-icon {
+  background-color: var(--ezy-theme-color);
+  color: #ffffff;
+  min-width: 60px !important;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+</style>
+
+
+
+<section >
+
+  <style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    h1{ padding: 0 0 30px; }
+    .box{
+        background-color: #222;
+        font-family: 'Open Sans', sans-serif;
+        overflow: hidden;
+        position: relative;
+    }
+    .box:before{
+        content:"";
+        background:rgb(13, 110, 253);
+        width: 0;
+        height: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all 0.3s ease-in-out;
+        z-index: 1;
+    }
+    .box:hover:before{
+        width:100%;
+    }
+    .box img{
+        width: 100%;
+        height: auto;
+        transition: all 0.45s;
+    }
+    .box:hover img{
+        opacity: 0.7;
+        filter: grayscale(90%);
+        transform: scale(1.2);
+    }
+    .box .box-content{
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        padding: 0 30px;
+        opacity: 0;
+        transform: translateX(-50%) translateY(-50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transition: all 0.45s ease;
+    }
+    .box .title{
+        font-size: 23px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 0 0 2px;
+    }
+    .box .post{
+        color: rgb(13, 110, 253);
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    .box .icon{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        opacity: 0;
+        transform: translateX(-50%);
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        transition: all 0.3s ease;
+    }
+    .box:hover .box-content,
+    .box:hover .icon{
+    opacity: 1;
+    }
+    .box .icon li{
+        display: inline-block;
+        margin: 0 2px;
+    }
+    .box .icon li a{
+        color: #fff;
+        background-color: rgb(13, 110, 253);
+        font-size: 14px;
+        text-align: center;
+        line-height: 35px;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        display: block;
+        transition: all 0.3s;
+    }
+    .box .icon li  a:hover{
+        color: rgb(13, 110, 253);
+        background-color: #fff;
+    }
+    .box .icon li a i{ line-height:inherit; }
+    @media only screen and (max-width:990px){
+        .box { margin: 0 0 30px; }
+    }</style>
+
+
+
+
+<!-- tab the start porjects -->
+
+<div id="porject">
+
+  <section>
+
+  <div class=" mt-5 container " data-aos="zoom-in pb-5">
+    <h3 class=" display-4 text-center  text-capitalize fw-bolder  heading-course  mt-5 py-5" style="color:  rgb(13, 110, 253);">  <b> porject</b>  </b></h3>
+      <div class="row   justify-content-between d-flex align-items-center">
+      
+        <!-- 1 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="box">
+              <img src="https://images.pexels.com/photos/1216544/pexels-photo-1216544.jpeg?auto=compress&cs=tinysrgb&w=600">
+              <div class="box-content">
+                  <h3 class="title">porject</h3>
+                  <span class="post">Branding 1</span>
+              </div>
+              <ul class="icon">
+                  <li><a href="#"><i class="fa fa-search"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+              </ul>
+          </div>
+      </div>
+
+              <!-- 2 -->
+  
+              <div class="col-md-4 col-sm-6">
+                <div class="box">
+                    <img src="https://images.pexels.com/photos/209272/pexels-photo-209272.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    <div class="box-content">
+                        <h3 class="title">porject-2</h3>
+                        <span class="post">Branding 2</span>
+                    </div>
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+              <!-- 3 -->
+  
+              <div class="col-md-4 col-sm-6">
+                <div class="box">
+                    <img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    <div class="box-content">
+                        <h3 class="title">porject-3</h3>
+                        <span class="post">Branding 3</span>
+                    </div>
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+      
+    
+  
+  
+             
+  <!-- 4 -->
+  
+  
+             
+  
+  
+              <!-- 5 -->
+
+
+
+
+                    <div class="col-md-4 col-sm-6 mt-4">
+          <div class="box">
+              <img src="https://images.pexels.com/photos/1402923/pexels-photo-1402923.jpeg?auto=compress&cs=tinysrgb&w=600">
+              <div class="box-content">
+                  <h3 class="title">porject-4</h3>
+                  <span class="post">Branding 4</span>
+              </div>
+              <ul class="icon">
+                  <li><a href="#"><i class="fa fa-search"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+              </ul>
+          </div>
+      </div>
+
+              <!-- 2 -->
+  
+              <div class="col-md-4 col-sm-6 mt-4">
+                <div class="box">
+                    <img src="https://images.pexels.com/photos/162534/grinder-hitachi-power-tool-flexible-162534.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    <div class="box-content">
+                        <h3 class="title">porject -5</h3>
+                        <span class="post">Branding 5</span>
+                    </div>
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+              <!-- 3 -->
+  
+              <div class="col-md-4 col-sm-6 mt-4">
+                <div class="box">
+                    <img src="https://images.pexels.com/photos/1029243/pexels-photo-1029243.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    <div class="box-content">
+                        <h3 class="title">porject -6</h3>
+                        <span class="post">Branding-6</span>
+                    </div>
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+      
+    
+  
+             
+            
+            
+  </div>
+  </div>
+  
+  </div>
+  
+  </section>
+
+
+  <section >
+    <div class=" container mt-4 ">
+    
+        <div class="row   justify-content-between d-flex align-items-center">
+        
+          <!-- 1 -->
+          <div class="col-md-4 col-sm-6">
+            <div class="box">
+                <img src="https://images.pexels.com/photos/14651/pexels-photo-14651.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <div class="box-content">
+                    <h3 class="title">porject-7</h3>
+                    <span class="post">Branding -7</span>
+                </div>
+                <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+            </div>
+        </div>
+  
+                <!-- 2 -->
+    
+                <div class="col-md-4 col-sm-6">
+                  <div class="box">
+                      <img src="https://images.pexels.com/photos/448828/pexels-photo-448828.jpeg?auto=compress&cs=tinysrgb&w=600">
+                      <div class="box-content">
+                          <h3 class="title">porject-8</h3>
+                          <span class="post">Branding 8</span>
+                      </div>
+                      <ul class="icon">
+                          <li><a href="#"><i class="fa fa-search"></i></a></li>
+                          <li><a href="#"><i class="fa fa-link"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+  
+                <!-- 3 -->
+    
+                <div class="col-md-4 col-sm-6">
+                  <div class="box">
+                      <img src="https://images.pexels.com/photos/188679/pexels-photo-188679.jpeg?auto=compress&cs=tinysrgb&w=600">
+                      <div class="box-content">
+                          <h3 class="title">porject -9</h3>
+                          <span class="post">Branding 9</span>
+                      </div>
+                      <ul class="icon">
+                          <li><a href="#"><i class="fa fa-search"></i></a></li>
+                          <li><a href="#"><i class="fa fa-link"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+        
+      
+    
+    
+               
+    <!-- 4 -->
+    
+    
+               
+    
+    
+                <!-- 5 -->
+  
+  
+  
+  
+                      <div class="col-md-4 col-sm-6 mt-4">
+            <div class="box">
+                <img src="https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&w=600">
+                <div class="box-content">
+                    <h3 class="title">porject -10</h3>
+                    <span class="post">Branding 10</span>
+                </div>
+                <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+            </div>
+        </div>
+  
+                <!-- 2 -->
+    
+                <div class="col-md-4 col-sm-6 mt-4">
+                  <div class="box">
+                      <img src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=600">
+                      <div class="box-content">
+                          <h3 class="title">porject -11</h3>
+                          <span class="post">Branding 11</span>
+                      </div>
+                      <ul class="icon">
+                          <li><a href="#"><i class="fa fa-search"></i></a></li>
+                          <li><a href="#"><i class="fa fa-link"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+  
+                <!-- 3 -->
+    
+                <div class="col-md-4 col-sm-6 mt-4">
+                  <div class="box">
+                      <img src="https://images.pexels.com/photos/1649658/pexels-photo-1649658.jpeg?auto=compress&cs=tinysrgb&w=600">
+                      <div class="box-content">
+                          <h3 class="title">porject -</h3>
+                          <span class="post">Web developer</span>
+                      </div>
+                      <ul class="icon">
+                          <li><a href="#"><i class="fa fa-search"></i></a></li>
+                          <li><a href="#"><i class="fa fa-link"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+        
+      
+    
+               
+              
+              
+    </div>
+    </div>
+    
+    </div>
+    
+    </section>
+    
+
+  </div>
+  
+  
+  
+  
+  
+
+
+
+
+
+  <!-- the start the tebstimonal -->
+  
+  <section>
+      
+      <style>
+        h1{ padding: 0 0 30px; }
+        .testimonial{ margin: 20px 15px 0; }
+        .testimonial .pic{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            float: left;
+            border: 5px solid  rgb(13, 110, 253);
+            box-shadow: 2px 3px 6px -3px rgba(0, 0, 0, 0.35);
+            position: relative;
+        }
+        .testimonial .pic:after{
+            content: "\f10d";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
+            border-radius: 50%;
+            text-align: center;
+            background: rgb(13, 110, 253);
+            font-size: 16px;
+            color: #fff;
+            position: absolute;
+            top: 65px;
+            left: 0;
+        }
+        .testimonial .pic img{
+            width: 100%;
+            height: 90px;
+            border-radius: 50%;
+        }
+        .testimonial .testimonial-content{
+            padding: 10px;
+            margin-left: 120px;
+        }
+        .testimonial .description{
+            font-size: 14px;
+            color: #555;
+            line-height: 22px;
+        }
+        .testimonial .testimonial-title{
+            font-size: 19px;
+            color:rgb(13, 110, 253);
+            text-transform: capitalize;
+            display: inline-block;
+        }
+        .testimonial .post{
+            font-size: 14px;
+            font-style: italic;
+            color: #444;
+            margin-top: 10px;
+        }
+        .owl-theme .owl-buttons{
+            margin-top: 20px;
+        }
+        .owl-theme .owl-controls .owl-buttons div{
+            padding: 5px 10px;
+            background: rgb(13, 110, 253);
+            border-radius: 0;
+            opacity: 1;
+            border-bottom: 2px solid rgb(13, 110, 253);
+        }
+        .owl-theme .owl-controls .owl-buttons div:hover{
+            background: rgb(13, 110, 253);
+        }
+        .owl-prev:before,
+        .owl-next:before{
+            content: "\f053";
+            font-family: "Font Awesome 5 Free"; font-weight: 900;
+            color: #fff;
+        }
+        .owl-next:before{
+            content: "\f054";
+        }
+        @media only screen and (max-width: 480px) {
+            .testimonial{
+                text-align: center;
+            }
+            .testimonial .pic{
+                float: none;
+                margin: 0 auto;
+            }
+            .testimonial .testimonial-content{
+                margin-left: 0;
+            }
+            .owl-theme .owl-buttons{
+                margin-top: 0;
+            }
+        }</style>
+        
+        
+
+
+
+        <div id="testimonial">
+        
+        <div class="container mt-5 mb-5 pb-5 pt-5 py-3">
+      <div class="row text-center">
+      
+        <h3 class=" display-4 text-center  text-capitalize fw-bolder   heading-course " style="color:   rgb(13, 110, 253);">  <b> testimonial</b>  </b></h3>
+      </div>
+      <div class="row">
+          <div class="col-md-12 mt-5 py-s">
+              <div id="testimonial-slider" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+                  <div class="owl-item" style="width: 570px;">
+                      <div class="testimonial">
+                          <div class="pic">
+                              <img src="https://plus.unsplash.com/premium_photo-1693000696650-e73643956033?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"  alt="">
+                          </div>
+                          <div class="testimonial-content">
+                              <p class="description text-capitalize">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
+                              </p>
+                              <h3 class="testimonial-title">williamson</h3>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  <div class="owl-item" style="width: 570px;">
+                      <div class="testimonial">
+                          <div class="pic">
+                              <img src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.webp?a=1&b=1&s=612x612&w=0&k=20&c=u5RPl326UFf1oyrM1iLFJtqdQ3K28TdBdSaSPKeCrdc=" alt="">
+                          </div>
+                          <div class="testimonial-content">
+                              <p class="description text-capitalize">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
+                              </p>
+                              <h3 class="testimonial-title">kristiana</h3>
+                          
+                          </div>
+                      </div>
+                  </div>
+                  <div class="owl-item" style="width: 570px;">
+                      <div class="testimonial">
+                          <div class="pic">
+                              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjAyfHxwcm9maWxlfGVufDB8fDB8fHww" alt="">
+                          </div>
+                          <div class="testimonial-content">
+                              <p class="description text-capitalize">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
+                              </p>
+                              <h3 class="testimonial-title">Steve Thomas</h3>
+                            
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="owl-controls clickable">
+                  <div class="owl-buttons">
+                      <div class="owl-prev"></div>
+                      <div class="owl-next"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script>window.onload = function() {
+    $("#testimonial-slider").owlCarousel({
+        items:2,
+        itemsDesktop:[1000,2],
+        itemsDesktopSmall:[980,1],
+        itemsTablet:[767,1],
+        pagination:false,
+        navigation:true,
+        navigationText:["",""],
+        slideSpeed:1000,
+        autoPlay:true
+    });
+}</script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+</section>
+
+
+</div>
+
+<section class="ezy__blog3 light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="ezy__blog3-heading mb-3 mt-0 text-capitalize" style="color:   rgb(13, 110, 253);">blog</h2>
+        <p class="ezy__blog3-sub-heading px-lg-5 mb-4">
+          Sed ut in perspiciatis unde omnis iste natus error sit on i tatem accusantium doloremque laudantium, totam
+          rem aperiam, eaque ipsa quae.
+        </p>
+        <a href="" class="btn ezy__blog3-btn">All Posts</a>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12 col-md-6 col-lg-4 mb-3">
+        <article class="ezy__blog3-post h-100">
+          <div class="position-relative">
+            <img src="https://images.pexels.com/photos/1770801/pexels-photo-1770801.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="img-fluid w-100" />
+            <div class="position-absolute top-0 start-0 px-4 py-3 fw-bold ezy__blog3-calendar">
+              26<br />Oct<br />2024
+            </div>
+          </div>
+          <div class="p-3 p-md-4">
+            <p class="ezy__blog3-author">By <a href="" class="text-decoration-none">Alex Hales</a></p>
+            <h4 class="mt-3 ezy__blog3-title fs-4 text-capitalize " style="color: #2f80ed;">Dolorum optio tempore voluptas dignissimos cumque </h4>
+            <p class="ezy__blog3-description mt-3 mb-4 text-capitalize">
+              t’s no secret that the digital industry is booming. From exciting startups to global brands.
+            </p>
+            <a href="" class="btn ezy__blog3-btn-read-more text-capitalize fw-bolder fs-5">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-3">
+        <article class="ezy__blog3-post h-100">
+          <div class="position-relative">
+            <img src="https://images.pexels.com/photos/7245333/pexels-photo-7245333.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="img-fluid w-100" />
+            <div class="position-absolute top-0 start-0 px-4 py-3 fw-bold ezy__blog3-calendar">
+              26<br />Oct<br />2024
+            </div>
+          </div>
+          <div class="p-3 p-md-4">
+            <p class="ezy__blog3-author">By <a href="" class="text-decoration-none">Mitwa Dadkan</a></p>
+            <h4 class="mt-3 ezy__blog3-title fs-4 text-capitalize" style="color: #2f80ed;">Dolorum optio tempore voluptas dignissimos cumque  </h4>
+            <p class="ezy__blog3-description mt-3 mb-4 text-capitalize">
+              t’s no secret that the digital industry is booming. From exciting startups to global brands.
+            </p>
+            <a href="" class="btn ezy__blog3-btn-read-more text-capitalize fw-bolder fs-5">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-3">
+        <article class="ezy__blog3-post h-100">
+          <div class="position-relative">
+            <img src="https://images.pexels.com/photos/3862384/pexels-photo-3862384.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="img-fluid w-100" />
+            <div class="position-absolute top-0 start-0 px-4 py-3 fw-bold ezy__blog3-calendar">
+              26<br />Oct<br />2024
+            </div>
+          </div>
+          <div class="p-3 p-md-4">
+            <p class="ezy__blog3-author">By <a href="" class="text-decoration-none">Mahws Georgia</a></p>
+            <h4 class="mt-3 ezy__blog3-title fs-4 text-capitalize " style="color: #2f80ed;">Dolorum optio tempore voluptas dignissimos cumque  </h4>
+            <p class="ezy__blog3-description mt-3 mb-4 text-capitalize">
+              More off this less hello salamander lied porpoise much over tightly circa horse taped.
+            </p>
+            <a href="" class="btn ezy__blog3-btn-read-more text-capitalize fw-bolder fs-5">Read More</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.ezy__blog3 {
+  /* Bootstrap variables */
+  --bs-body-color: #28303b;
+  --bs-body-bg: #fff;
+
+  /* easy frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-card-bg: #fff;
+  --ezy-card-shadow: 0 25px 41px rgba(89, 88, 109, 0.15);
+
+  background-color: var(--bs-body-bg);
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .ezy__blog3 {
+    /* Bootstrap variables */
+    --bs-body-color: #000;
+    --bs-body-bg: rgb(255, 255, 255);
+
+    /* Easy Frontend variables */
+    --ezy-theme-color: rgb(13, 110, 253);
+    --ezy-theme-color-rgb: 13, 110, 253;
+    --ezy-card-bg: #ffffff;
+
+    background-color: var(--bs-body-bg);
+    padding: 70px 0;
+    color: var(--bs-body-color);
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__blog3,
+.ezy__blog3.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+
+  /* easy frontend variables */
+  --ezy-card-bg: #fff;
+  --ezy-card-shadow: 0px 8px 44px rgba(182, 198, 222, 0.48);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__blog3,
+.ezy__blog3.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: rgb(241, 241, 241);
+  --bs-body-bg: rgb(30, 39, 53);
+
+  /* easy frontend variables */
+  --ezy-card-bg: rgb(11, 23, 39);
+  --ezy-card-shadow: none;
+}
+
+/* Dark Block Style */
+.dark .ezy__blog3,
+.ezy__blog3.dark {
+  /* Bootstrap variables */
+  --bs-body-color: rgb(255, 255, 255);
+  --bs-body-bg: rgb(11, 23, 39);
+
+  /* easy frontend variables */
+  --ezy-card-bg: rgb(30, 39, 53);
+  --ezy-card-shadow: none;
+}
+
+/* heading and sub-heading */
+.ezy__blog3-heading {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: var(--bs-body-color);
+}
+
+.ezy__blog3-sub-heading {
+  color: var(--bs-body-color);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+@media (min-width: 991px) {
+  .ezy__blog3-heading {
+    font-size: 45px;
+  }
+}
+
+.ezy__blog3-post {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--ezy-card-bg);
+  box-shadow: var(--ezy-card-shadow);
+}
+
+.ezy__blog3-calendar {
+  background-color:  rgb(13, 110, 253);
+  color:white;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 0 0 10px 0;
+}
+
+.ezy__blog3-author {
+  color: var(--bs-body-color) !important;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.ezy__blog3-title {
+  font-weight: 500;
+  margin-top: 0 !important;
+  color: var(--bs-body-color);
+}
+
+.ezy__blog3-description {
+  color: var(--bs-body-color);
+  opacity: 0.6;
+}
+
+.ezy__blog3-btn {
+  padding: 12px 30px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--ezy-theme-color);
+  border-color: var(--ezy-theme-color);
+}
+
+.ezy__blog3-btn:hover {
+  color: #ffffff;
+  background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.ezy__blog3-btn-read-more {
+  padding: 7px 20px;
+  color:   rgb(13, 110, 253);
+  border-color: var(--ezy-theme-color);
+}
+
+.ezy__blog3-btn-read-more:hover {
+  background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+  color: #ffffff;
+}
+
+.ezy__blog3-author a {
+  color: var(--ezy-theme-color);
+}
+</style>
+
+
+<div id="blog">
+
+<section class="ezy__footer2 " style="background-color:  rgb(13, 110, 253);">
+  <div class="container">
+    <div class="row text-center text-sm-start">
+      <div class="col-lg-3">
+        <h2 class="fw-bold">UpConstruction</h2>
+      </div>
+      <div class="col-sm-6 col-lg-2 mt-4 mt-lg-0">
+        <h5 class=" text-capitalize">Quick Links</h5>
+        <ul class="nav flex-column ezy__footer2-quick-links text-capitalize">
+          <li ><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">terms of Services</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-2 mt-4 mt-lg-0">
+        <h5 class="text-capitalize">our Services</h5>
+        <ul class="nav flex-column ezy__footer2-quick-links text-capitalize">
+          <li><a href="#">web design</a></li>
+          <li><a href="#">web developpment</a></li>
+          <li><a href="#">Product Management</li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Graphic Design</a></li>
+
+
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-2 mt-4 mt-lg-0">
+        <h5 class="text-capitalize">Hic solutasetp</h5>
+        <ul class="nav flex-column ezy__footer2-quick-links text-capitalize">
+          <li><a href="#">Molestiae accusamus iure</a></li>
+          <li><a href="#">Excepturi dignissimos</a></li>
+          <li><a href="#">Suscipit distinctio</a></li>
+          <li><a href="#">Dilecta</a></li>
+          <li><a href="#">Sit quas consectetur</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-3 mt-4 mt-lg-0">
+        <h5 class="text-capitalize">Nobis illum</h5>
+        <ul class="nav flex-column ezy__footer2-quick-links">
+          <li><a href="#">Ipsam</a></li>
+          <li><a href="#">Laudantium dolorum</a></li>
+          <li><a href="#">Dinera</a></li>
+          <li><a href="#">Trodelas</a></li>
+          <li><a href="#"> Flexo </a></li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <div class="row d-flex justify-content-between align-items-center text-center text-lg-start">
+      <div class="col-lg-4">
+        <p class="mb-0 mt-1 text-white">Copyright &copy;  tilok sain , All rights reserved</p>
+      </div>
+      <div class="col-lg-4 text-center">
+        <ul class="ezy__footer2-nav nav justify-content-center mt-1">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end text-center text-lg-end mt-1">
+        <ul class="ezy__footer2-social nav">
+          <li>
+            <a href="" class="border d-flex justify-content-center align-items-center rounded-circle"><i
+                class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="" class="border d-flex justify-content-center align-items-center rounded-circle"><i
+                class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="" class="border d-flex justify-content-center align-items-center rounded-circle"><i
+                class="fab fa-pinterest-p"></i></a>
+          </li>
+          <li>
+            <a href="" class="border d-flex justify-content-center align-items-center rounded-circle"><i
+                class="fab fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<style>
+.ezy__footer2 {
+  /* Bootstrap variables */
+  --bs-body-color: white;
+  --bs-body-bg: rgb(255, 255, 255);
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .ezy__footer2 {
+    padding: 80px 0;
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__footer2,
+.ezy__footer2.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__footer2,
+.ezy__footer2.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: white;
+}
+
+.dark .ezy__footer2,
+.ezy__footer2.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg:  white;
+}
+
+.ezy__footer2-nav .nav-link {
+  color:   whitesmoke;
+}
+
+.ezy__footer2-nav .nav-link:hover {
+  color:  rgb(30, 39, 53);
+  opacity: 0.8;
+}
+
+.ezy__footer2-social li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 6px 8px;
+}
+
+.ezy__footer2-social li a {
+  color:  rgb(194, 190, 190) ;
+  width: 35px;
+  height: 35px;
+  text-decoration: none;
+}
+
+.ezy__footer2-social li a:hover {
+  color:  white;
+}
+
+.ezy__footer2-quick-links li {
+  margin-bottom: 8px;
+}
+
+.ezy__footer2-quick-links li a {
+  color:white;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.ezy__footer2-quick-links li a:hover {
+  color: var(--bs-body-color);
+  opacity: 1;
+}
+</style>
