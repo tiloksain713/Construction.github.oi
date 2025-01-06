@@ -24,240 +24,245 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
+ 
+   <style>
   body {
       position: relative; 
   }
+
   </style>
 </head>
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-  <div class="ezy__nav2 dark">
-    <nav class="navbar navbar-expand-lg  py-3">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          UpConstruction
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span>
-            <span></span>
-          </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-4 mt-lg-0">
-            <li class="nav-item"><a class="nav-link active fs-5 fw-bolder text-capitalize" href="#home">Home</a></li>
-            <li class="nav-item"><a class="nav-link fs-5 fw-bolder text-capitalize" href="#why">content </a></li>
-            <li class="nav-item"><a class="nav-link fs-5 fw-bolder text-capitalize" href="#Constructions">Constructions</a></li>
-            <li class="nav-item"><a class="nav-link fs-5 fw-bolder text-capitalize" href="#serviess">Service</a></li>
-            <li class="nav-item"><a class="nav-link fs-5 fw-bolder text-capitalize" href="#porject">porject</a></li>
-            <li class="nav-item"><a class="nav-link fs-5 fw-bolder text-capitalize" href="#testimonial">testimonial</a></li>
-            <li class="nav-item"><a class="nav-link fs-5 fw-bolder text-capitalize" href="#blog">Blog</a></li>
-          </ul>
-          <ul class="navbar-nav flex-row mb-2 mb-lg-0 ms-lg-3">
-            <li class="nav-item me-2">
-              
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
-  
-  <style>
-  .ezy__nav2 {
-    /* Bootstrap variables */
-    --bs-body-color: #000;
-    --bs-body-bg: rgb(255, 255, 255);
-  
-    /* Easy Frontend variables */
-    --ezy-theme-color: rgb(13, 110, 253);
-    --ezy-theme-color-rgb: 13, 110, 253;
-  
-    background-color: var(--bs-body-bg);
-  }
-  
-  /* Gray Block Style */
-  .gray .ezy__nav2,
-  .ezy__nav2.gray {
-    /* Bootstrap variables */
-    --bs-body-bg: rgb(246, 246, 246);
-  }
-  
-  /* Dark Gray Block Style */
-  .dark-gray .ezy__nav2,
-  .ezy__nav2.dark-gray {
-    /* Bootstrap variables */
-    --bs-body-color: #ffffff;
-    --bs-body-bg: #EEB76B;
-  }
-  
-  /* Dark Block Style */
-  .dark .ezy__nav2,
-  .ezy__nav2.dark {
-    /* Bootstrap variables */
-    --bs-body-color: #ffffff;
-    --bs-body-bg: rgb(13, 110, 253);
-  
-  
-  }
-  
-  .ezy__nav2 .navbar-brand {
-    font-weight: 800;
-    font-size: 30px;
-    color: var(--bs-body-color);
-  }
-  
-  .ezy__nav2 .navbar-toggler {
-    border: none;
-    box-shadow: none !important;
-  }
-  
-  .ezy__nav2 .navbar-toggler>span {
-    display: flex;
-    align-items: center;
-    height: 32px;
-  }
-  
-  .ezy__nav2 .navbar-toggler>span>span {
-    position: relative;
-  }
-  
-  .ezy__nav2 .navbar-toggler>span>span,
-  .ezy__nav2 .navbar-toggler>span>span::before,
-  .ezy__nav2 .navbar-toggler>span>span::after {
-    height: 2px;
-    background-color: var(--bs-body-color);
-    width: 25px;
-    display: inline-block;
-    border-radius: 5px;
-    transition: all .35s ease-in-out;
-  }
-  
-  .ezy__nav2 .navbar-toggler>span>span::before,
-  .ezy__nav2 .navbar-toggler>span>span::after {
-    content: '';
-    position: absolute;
-    left: 0;
-  }
-  
-  .ezy__nav2 .navbar-toggler[aria-expanded="false"]>span>span::before {
-    top: 7px;
-  }
-  
-  
-  .ezy__nav2 .navbar-toggler[aria-expanded="false"]>span>span::after {
-    bottom: 7px;
-  }
-  
-  .ezy__nav2 .navbar-toggler[aria-expanded="true"]>span>span {
-    background-color: transparent;
-  }
-  
-  .ezy__nav2 .navbar-toggler[aria-expanded="true"]>span>span::before {
-    top: 0;
-    transform: rotate(-45deg);
-  }
-  
-  .ezy__nav2 .navbar-toggler[aria-expanded="true"]>span>span::after {
-    bottom: 0;
-    transform: rotate(45deg);
-  }
-  
-  .ezy__nav2 .navbar-nav .nav-link {
-    color: var(--bs-body-color);
-    opacity: .6;
-  }
-  
-  .ezy__nav2 .navbar-nav .nav-link:hover,
-  .ezy__nav2 .navbar-nav .nav-link:focus,
-  .ezy__nav2 .navbar-nav .nav-link.active {
-    color: var(--bs-body-color);
-    opacity: 1;
-  }
-  
-  @media (min-width: 992px) {
-    .ezy__nav2 .navbar-nav .nav-link {
-      padding-right: 16px;
-      padding-left: 16px;
-    }
-  }
-  
-  /* btns */
-  .ezy__nav2 .btn-primary {
-    background-color: var(--ezy-theme-color);
-    border-color: var(--ezy-theme-color);
-  }
-  
-  .ezy__nav2 .btn-primary:hover {
-    background-color: rgba(var(--ezy-theme-color-rgb), .9);
-    border-color: rgba(var(--ezy-theme-color-rgb), .9);
-  }
-  
-  .ezy__nav2 .btn-outline-primary {
-    color: var(--ezy-theme-color);
-    border-color: var(--ezy-theme-color);
-  }
-  
-  .ezy__nav2 .btn-outline-primary:hover {
-    color: #fff;
-    background-color: rgba(var(--ezy-theme-color-rgb), .9);
-    border-color: rgba(var(--ezy-theme-color-rgb), .9);
-  }
 
-  /* Rounded border */
-hr.rounded {
-  border-top: 8px solid #bbb;
-  border-radius: 5px;
+<div class="ezy__nav7 light">
+	<nav class="navbar navbar-expand-lg flex-column navbar-light py-3">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				LOGO
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ezy_nav7-navbar-text"
+				aria-controls="ezy_nav7-navbar-text" aria-expanded="false" aria-label="Toggle navigation">
+				<span>
+					<span></span>
+				</span>
+			</button>
+			<div class="collapse navbar-collapse" id="ezy_nav7-navbar-text">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-4 mt-lg-0">
+					<li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Why us?</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">How It Works</a></li>
+					<li class="nav-item">
+						<a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#ezy_nav7-navbar-search"
+							aria-expanded="false" aria-controls="ezy_nav7-navbar-search">
+							<span class="fas fa-search"></span>
+						</a>
+					</li>
+				</ul>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="collapse w-100" id="ezy_nav7-navbar-search">
+				<form class="mt-4">
+					<div class="input-group">
+						<input class="form-control px-3" type="search" placeholder="City, Address, Zip" aria-label="Search" />
+						<button class="btn ezy__nav7-btn px-3" type="submit">Search</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</nav>
+</div>
+
+<style>
+.ezy__nav7 {
+	/* Bootstrap variables */
+	--bs-body-color: white;
+	--bs-body-bg:  rgb(13, 110, 253);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--bs-body-bg);
+}
+
+/* Gray Block Style */
+.gray .ezy__nav7,
+.ezy__nav7.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__nav7,
+.ezy__nav7.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+
+/* Dark Block Style */
+.dark .ezy__nav7,
+.ezy__nav7.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__nav7 .navbar-brand {
+	font-weight: 800;
+	font-size: 30px;
+	color: var(--bs-body-color);
+}
+
+.ezy__nav7 .navbar-toggler {
+	border: none;
+	box-shadow: none !important;
+}
+
+.ezy__nav7 .navbar-toggler>span {
+	display: flex;
+	align-items: center;
+	height: 32px;
+}
+
+.ezy__nav7 .navbar-toggler>span>span {
+	position: relative;
+}
+
+.ezy__nav7 .navbar-toggler>span>span,
+.ezy__nav7 .navbar-toggler>span>span::before,
+.ezy__nav7 .navbar-toggler>span>span::after {
+	height: 2px;
+	background-color: var(--bs-body-color);
+	width: 25px;
+	display: inline-block;
+	border-radius: 5px;
+	transition: all .35s ease-in-out;
+}
+
+.ezy__nav7 .navbar-toggler>span>span::before,
+.ezy__nav7 .navbar-toggler>span>span::after {
+	content: '';
+	position: absolute;
+	left: 0;
+}
+
+.ezy__nav7 .navbar-toggler[aria-expanded="false"]>span>span::before {
+	top: 7px;
+}
+
+.ezy__nav7 .navbar-toggler[aria-expanded="false"]>span>span::after {
+	bottom: 7px;
+}
+
+.ezy__nav7 .navbar-toggler[aria-expanded="true"]>span>span {
+	background-color: transparent;
+}
+
+.ezy__nav7 .navbar-toggler[aria-expanded="true"]>span>span::before {
+	top: 0;
+	transform: rotate(-45deg);
+}
+
+.ezy__nav7 .navbar-toggler[aria-expanded="true"]>span>span::after {
+	bottom: 0;
+	transform: rotate(45deg);
+}
+
+.ezy__nav7 .navbar-nav .nav-link {
+	color: var(--bs-body-color);
+	opacity: .6;
+}
+
+.ezy__nav7 .navbar-nav .nav-link:hover,
+.ezy__nav7 .navbar-nav .nav-link:focus,
+.ezy__nav7 .navbar-nav .nav-link.active {
+	color: var(--bs-body-color);
+	opacity: 1;
+}
+
+@media (min-width: 992px) {
+	.ezy__nav7 .navbar-nav .nav-link {
+		padding-right: 16px;
+		padding-left: 16px;
+	}
+}
+
+.ezy__nav7 .btn {
+	border-radius: 10px;
+}
+
+.ezy__nav7-btn {
+	background-color: var(--ezy-theme-color);
+	color: #fff;
+}
+.ezy__nav7-btn:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), .9);
+	color: #fff;
+}
+
+.ezy__nav7 .btn-light {
+	background-color: rgba(var(--ezy-btn-color-rgb), .1);
+	border-color: rgba(var(--ezy-btn-color-rgb), .1);
+	color: var(--bs-body-color);
+}
+
+.ezy__nav7 .form-control {
+	min-height: 48px;
+	line-height: 40px;
+	border-color: transparent;
+	background: rgba(163, 190, 241, .14);
+	border-radius: 10px;
+	color: var(--bs-body-color);
+}
+
+.ezy__nav7 .form-control:focus {
+	border-color: #86b7fe;
+	box-shadow: none;
 }
 
 
 
-.navbar .navbar-nav .nav-item {
-  position: relative;
-}
-.navbar .navbar-nav .nav-item:before, .navbar .navbar-nav .nav-item:after
-{
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: white;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
+
+.c-item{
+  height: auto;
+
 }
 
- .navbar-nav .nav-item:before
-{
-    top: 0px;
-    transform: translateY(-10px);
+.c-img{
+  
+  object-fit: cover;
+  filter: brightness(0.6);
 }
 
-div.topBotomBordersIn a:after
-{
-    bottom: 0px;
-    transform: translateY(10px);
-}
 
-.navbar .navbar-nav .nav-item:hover:before, .navbar .navbar-nav .nav-item:hover:after
-{
-    opacity: 1;
-    transform: translateY(0px);
-}
-
+.header__blog4-btn {
+        padding: 12px 30px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color:transparent;
+        border-color: white;
+      }
+      
+      .header__blog4-btn:hover {
+        color: #ffffff;
+        background-color:  rgb(13, 110, 253);
+        border: whitesmoke;
+      }
   
 
 
   </style>
 
+<div id="Home" class="container-fluid">
 
+  
+<header>
 
-
-
-<!-- tab start the home -->
-
-<div id="home">
-
-<!-- Carousel -->
+   <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
   <!-- Indicators/dots -->
@@ -268,39 +273,38 @@ div.topBotomBordersIn a:after
   </div>
   
   <!-- The slideshow/carousel -->
-  <div class="carousel-inner ">
-    <div class="carousel-item active c-item">
-     <img src="https://flexcrete.com/wp-content/uploads/2017/08/New-Build-Construction-Flexcrete-1.jpg" height="800px" width="100%" alt="">
-      <div class="carousel-caption   top-0 mt-5">
-    
-        <hr class="rounded">
-        <h1 class="display-1 fw-bolder text-capitalize mt-5 py-5 animate__animated  animate__backInLeft"> welcome to  up comstruction </h1>
-        <p class="animate__animated animate__backInRightgit">Lorem ipsum dolor sit amet consectetur adipisicing elit.  Blanditiis quibusdam aspernatur, optio ipsa rem quo necessitatibus  exercitationem nulla quaerat doloremque vitae  fugit quis modi placeat. Praesentium suscipit nisi inventore optio!</p>
-        
-        <a href="" class="btn  px-4 py-4 fs-3 mt-5 header-btn ">Read More</a>
-      </div>
-    </div>
-    <div class="carousel-item c-item">
-     <img src="https://storage.needpix.com/rsynced_images/home-2449886_1280.jpg"  height="800px" width="100%" alt="">
-      <div class="carousel-caption top-0 mt-5">
-        <h1 class="display-1 fw-bolder text-capitalize  mt-5 py-5"> welcome to  up comstruction </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit  Blanditiis quibusdam aspernatur, optio ipsa rem quo necessitati exercitationem nulla quaerat doloremque vitae  fugit quis modi placeat. Praesentium suscipit  nisi inventore optio!</p>
-        <a href="" class="btn  px-4 py-4 fs-3 mt-5 header-btn">Read More</a>
-
-    
-      </div> 
-    </div>
-    <div class="carousel-item c-item">
-      <img src="https://www.hotelowner.co.uk/wp-content/uploads/2024/02/shutterstock_142079119.jpg"  height="800px" width="100%" alt="">
-      <div class="carousel-caption top-0 mt-5">
-        <h1 class="display-1 fw-bolder text-capitalize  mt-5 py-5"> welcome to  up comstruction </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quibusdam aspernatur, optio ipsa rem quo necessitatibus exercitationem nulla quaerat doloremque vitae fugit quis modi placeat. Praesentium suscipit nisi inventore optio!</p>
-        <a href="" class="btn  px-4 py-4 fs-3 mt-5 header-btn">Read More</a>
-    
-      </div>  
-    </div>
-  </div>
   
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner ">
+        <div class="carousel-item active c-item">
+          <img class="c-img o" src="https://flexcrete.com/wp-content/uploads/2017/08/New-Build-Construction-Flexcrete-1.jpg" alt="img" height="580px" width="100%">
+          <div class="carousel-caption   top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase  animate__animated animate__backInDown ">booking</p>
+            <h1 class="display-1 fw-bolder text-capitalize  animate__animated animate__backInLeft ">welcome to up comstruction
+            <button  type="button" class="btn header__blog4-btn px-5 fs-3    animate__animated animate__backInUp ">book now</button>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img class="c-img" src="https://storage.needpix.com/rsynced_images/home-2449886_1280.jpg" alt="img"  height="580px" width="100%">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase  animate__animated animate__backInDown">booking</p>
+            <h1 class="display-1 fw-bolder text-capitalize   animate__animated animate__backInLeft">welcome to up comstruction
+            <button  type="button" class="btn header__blog4-btn px-5  fs-3   animate__animated animate__backInUp ">book now</button>
+            
+          </div> 
+        </div>
+        <div class="carousel-item c-item">
+          <img class="c-img" src="https://www.hotelowner.co.uk/wp-content/uploads/2024/02/shutterstock_142079119.jpg" alt="img"  height="580px" width="100%">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase  animate__animated animate__backInDown">booking</p>
+            <h1 class="display-1 fw-bolder text-capitalize   animate__animated animate__backInLeft">welcome to up comstruction </h1> 
+            
+            <button  type="button" class="btn header__blog4-btn px-5  fs-3   animate__animated animate__backInUp ">book now</button>
+          </div>  
+        </div>
+      </div>
+      
+        
   <!-- Left and right controls/icons -->
   <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
     <span class="carousel-control-prev-icon"></span>
@@ -309,6 +313,15 @@ div.topBotomBordersIn a:after
     <span class="carousel-control-next-icon"></span>
   </button>
 </div>
+</div>
+</div>
+
+
+      </header>
+
+      </div>
+      
+      <!-- Booking End -->
 
 
 
